@@ -1,0 +1,17 @@
+---
+resources:
+- name: resource-tutorial
+  type: git
+  source:
+    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    branch: k9
+    paths:
+     - resource-tutorial/tutorials/basic/task-scripts/task_show_uname.yml
+     - resource-tutorial/tutorials/basic/task-scripts/task_show_uname.sh
+jobs:
+- name: job-hello-world
+  public: true
+  plan:
+  - get: resource-tutorial
+  - task: hello-world
+    file: resource-tutorial/tutorials/basic/task-scripts/task_show_uname.yml
