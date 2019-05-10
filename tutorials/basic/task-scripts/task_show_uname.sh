@@ -3,5 +3,5 @@
 uname -a
 ls ../.
 pwd
-ls . 
-
+ls ./. 
+pwd ./.
