@@ -4,6 +4,7 @@ uname -a
 ls ../.
 pwd
 ls ./.
-cd resource-tutorial
+cd resource-tutorials
 pwd
-./task_show_uname-2.sh
+ls
+./resource-tutorials/tutorials/basic/task-scripts/task_show_uname-2.sh
