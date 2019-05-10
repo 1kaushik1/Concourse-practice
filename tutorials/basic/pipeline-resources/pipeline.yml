@@ -1,6 +1,6 @@
 ---
 resources:
-- name: resource-tutorial
+- name: resource-tutorials
   type: git
   source:
     uri: https://github.com/1kaushik1/Concourse-practice.git
@@ -10,6 +10,6 @@ jobs:
 - name: job-hello-world
   public: true
   plan:
-  - get: resource-tutorial
+  - get: resource-tutorials
   - task: hello-world
     file: resource-tutorials/tutorials/basic/task-scripts/task_show_uname.yml
