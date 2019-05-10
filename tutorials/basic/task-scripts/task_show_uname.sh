@@ -9,4 +9,4 @@ pwd
 ls
 cd resource-tutorials/tutorials/basic/task-scripts
 ls
-sh task_show_uname-2.sh
+sh resource-tutorials/tutorials/basic/task-scripts/task_show_uname-2.sh

@@ -5,6 +5,10 @@ resources:
   source:
     uri: https://github.com/1kaushik1/Concourse-practice.git
     branch: master
+    paths:
+      - resource-tutorials/tutorials/basic/task-scripts/task_show_uname.yml
+      - resource-tutorials/tutorials/basic/task-scripts/task_show_uname.sh
+      - resource-tutorials/tutorials/basic/task-scripts/task_show_uname-2.sh      
 
 jobs:
 - name: job-hello-world
