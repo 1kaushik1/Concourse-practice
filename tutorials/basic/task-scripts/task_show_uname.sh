@@ -1,7 +1,7 @@
 #!/bin/sh
 
 uname -a
-ll ../.
+ls ../.
 pwd
-ll 
+ls . 
 
