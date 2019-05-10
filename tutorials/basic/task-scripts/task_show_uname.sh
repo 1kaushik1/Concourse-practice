@@ -3,5 +3,6 @@
 uname -a
 ls ../.
 pwd
-ls ./. 
-pwd ./.
+ls ./.
+cd resource-tutorial
+pwd
